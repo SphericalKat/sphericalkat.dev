@@ -2,6 +2,15 @@
   --dark-blue: #1d1f3e;
   --dark-blue-card: #262845;
   --neon-green: #69F0AE;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
 }
 
 * {
