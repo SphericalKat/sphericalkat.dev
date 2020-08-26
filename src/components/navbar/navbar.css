@@ -1,0 +1,44 @@
+li,
+a,
+p {
+  font-family: "CircularStdBook", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 30px 4% 30px 2%;
+}
+
+.nav-logo {
+  cursor: pointer;
+  color: white;
+  font-family: "CircularStdBlack";
+  font-size: 24px;
+}
+
+.nav-logo-span {
+  color: var(--neon-green)
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links li a {
+  transition: all 0.4s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: var(--neon-green);
+}

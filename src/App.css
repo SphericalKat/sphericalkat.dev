@@ -1,0 +1,12 @@
+:root {
+  --dark-blue: #1d1f3e;
+  --dark-blue-card: #262845;
+  --neon-green: #69F0AE;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: var(--dark-blue);
+}
