@@ -40,9 +40,9 @@
 .contact-btn:hover {
   font-family: "CircularStdBold", sans-serif;
   background-color: var(--dark-blue-card);
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   border-radius: 5px;
-  font-size: 1em;
+  font-size: 1.01em;
   cursor: pointer;
   color: var(--neon-green);
   transition: all 0.2s ease 0s;
