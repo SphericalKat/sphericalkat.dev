@@ -4,7 +4,7 @@ import "./App.css"
 import React, { Suspense, lazy } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-const Home = lazy(() => import("./pages/home"));
+const Home = lazy(() => import("./pages/home/home"));
 const Contact = lazy(() => import("./pages/contact"));
 const Portfolio = lazy(() => import("./pages/portfolio"));
 

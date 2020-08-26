@@ -1,0 +1,25 @@
+.footer-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  color: var(--neon-green);
+  font-family: "CircularStdBold", sans-serif;
+  padding: 0.5em 2.5em;
+}
+
+.social-links img {
+  padding-left: 24px;
+  height: 48px;
+  width: 48px;
+}
+
+@media (min-width: 768px) {
+  .social-links img {
+    height: 64px;
+    width: 64px;
+  }
+}

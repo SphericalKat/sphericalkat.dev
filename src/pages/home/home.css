@@ -1,0 +1,72 @@
+.home-header-div {
+  padding: 3em;
+}
+
+.home-header-div strong {
+  font-family: "CircularStdBook", sans-serif;
+  font-size: 2em;
+  color: white;
+  opacity: 0.9;
+}
+
+.home-header-div strong span {
+  font-weight: 700;
+  color: var(--neon-green);
+}
+
+.short-desc {
+  font-family: "CircularStdBold", sans-serif;
+  font-size: 1em;
+  padding-top: 1em;
+  color: white;
+}
+
+.span-highlight {
+  color: var(--neon-green)
+}
+
+.contact-btn {
+  font-family: "CircularStdBold", sans-serif;
+  background-color: var(--dark-blue-card);
+  border-radius: 5px;
+  padding: 0.7em 1em;
+  font-size: 1em;
+  border: none;
+  margin-top: 2em;
+  color: var(--neon-green);
+  transition: all 0.4s ease 0s;
+}
+
+.contact-btn:hover {
+  font-family: "CircularStdBold", sans-serif;
+  background-color: var(--dark-blue-card);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  color: var(--neon-green);
+  transition: all 0.2s ease 0s;
+}
+
+@media (min-width: 768px) {
+  .home-header-div {
+    padding: 7em;
+  }
+
+  .home-header-div strong {
+    font-family: "CircularStdBook";
+    font-size: 4em;
+  }
+
+  .short-desc {
+    font-size: 1.2em;
+  }
+
+  .contact-btn {
+    margin-top: 2em;
+    padding: 1em 1.5em;
+    font-size: 1em;
+    outline: none;
+    border: none;
+  }
+}
