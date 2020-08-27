@@ -1,0 +1,17 @@
+.watermark {
+  opacity: 0;
+}
+
+@media (min-width: 768px) {
+  .watermark {
+    font-family: "CircularStdBlack";
+    font-size: 13em;
+    opacity: 0.1;
+    z-index: 1;
+    right: 0;
+    color: white;
+    bottom: 12%;
+    position: fixed;
+    padding-right: 40px;
+  }
+}

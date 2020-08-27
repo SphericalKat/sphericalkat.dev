@@ -2,12 +2,13 @@ import React from "react";
 import "./home.css";
 import Navbar from "../../components/navbar/navbar";
 import Footer from "../../components/footer/footer";
+import Watermark from "../../components/watermark/watermark";
 
 const Home = () => (
   <div>
     <Navbar page="home" />
     <div className="home-header-div">
-      <div className="watermark">Home</div>
+      <Watermark text="Home" />
       <strong>
         Hi, I'm Amogh Lele,
         <br />a<span> Full Stack Developer.</span>
