@@ -8,6 +8,7 @@
   left: 0;
   color: var(--neon-green);
   font-family: "CircularStdBold", sans-serif;
+  font-size: 1em;
   padding: 0.5em 2.5em;
 }
 
