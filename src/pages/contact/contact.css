@@ -1,0 +1,16 @@
+.contact-header-div {
+  padding: 3em;
+}
+
+.contact-header-div strong {
+  font-family: "CircularStdBook", sans-serif;
+  font-size: 3em;
+  color: var(--neon-green)
+}
+
+
+@media (min-width: 768px) {
+  .contact-header-div {
+    padding: 7em;
+  }
+}

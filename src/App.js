@@ -6,8 +6,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Loading from "./components/loading/loading"
 
 const Home = lazy(() => import("./pages/home/home"));
-const Contact = lazy(() => import("./pages/contact"));
-const Portfolio = lazy(() => import("./pages/portfolio"));
+const Contact = lazy(() => import("./pages/contact/contact"));
+const Portfolio = lazy(() => import("./pages/portfolio/portfolio"));
 
 function App() {
   return (

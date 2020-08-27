@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../components/navbar/navbar"
-import Watermark from "../components/watermark/watermark";
+import Navbar from "../../components/navbar/navbar"
+import Watermark from "../../components/watermark/watermark";
 
 const Portfolio = () => (
   <div>
