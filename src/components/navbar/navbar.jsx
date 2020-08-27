@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import "./navbar.css";
 
 const Navbar = (props) => {
@@ -14,8 +15,8 @@ const Navbar = (props) => {
           <ul className="nav-links">
             {items.map((item) => (
               <li key={item}>
-                <a
-                  href={`/${item}`}
+                <Link
+                  to={`/${item}`}
                   style={
                     props.page === item
                       ? { color: "#69F0AE", textTransform: "capitalize" }
@@ -23,7 +24,7 @@ const Navbar = (props) => {
                   }
                 >
                   {item}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
