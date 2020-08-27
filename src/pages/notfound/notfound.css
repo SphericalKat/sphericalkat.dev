@@ -1,0 +1,46 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2em;
+  height: 100%;
+  justify-content: center;
+  font-family: "CircularStdBold", sans-serif;
+}
+
+#root {
+  height: 100%;
+}
+
+.page-container h1 {
+  color: var(--neon-green);
+  font-size: 5em;
+}
+
+.page-container h2 {
+  color: white;
+  font-size: 0.7em;
+}
+
+.page-container a {
+  text-decoration: none;
+  color: var(--neon-green);
+  font-size: 0.6em;
+  padding-top: 1em;
+}
+
+@media (min-width: 768px) {
+  .page-container h1 {
+    font-size: 8em;
+  }
+
+  .page-container h2 {
+    font-family: "CircularStdBold";
+    color: white;
+    font-size: 1.8em;
+  }
+
+  .page-container a {
+    font-size: 1em;
+  }
+}
