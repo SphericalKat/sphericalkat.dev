@@ -6,7 +6,7 @@
   .watermark {
     font-family: "CircularStdBlack";
     font-size: 13em;
-    opacity: 0.1;
+    opacity: 0.03;
     z-index: 1;
     right: 0;
     color: white;
