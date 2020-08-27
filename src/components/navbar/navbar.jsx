@@ -8,9 +8,9 @@ const Navbar = (props) => {
   return (
     <div>
       <header>
-        <a className="nav-logo" href="/">
+        <Link className="nav-logo" to="/">
           Spherical<span className="nav-logo-span">Kat</span>
-        </a>
+        </Link>
         <nav>
           <ul className="nav-links">
             {items.map((item) => (
