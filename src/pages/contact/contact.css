@@ -2,15 +2,64 @@
   padding: 3em;
 }
 
-.contact-header-div strong {
+.contact-header-div .strong-text {
   font-family: "CircularStdBook", sans-serif;
-  font-size: 3em;
+  font-size: 1.8em;
   color: var(--neon-green)
+}
+
+.contact-list {
+  padding-top: 1em;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact-list li {
+  padding: 0.5em 1em;
+  display: inline-block;
+  width: auto;
+  line-height: 48px;
+  cursor: pointer;
+}
+
+.contact-list li span {
+  transition: all 0.4s ease 0s;
+}
+
+.contact-list li:hover span {
+  color: var(--neon-green);
+}
+
+.contact-item-text {
+  font-size: 24px;
+  padding-left: 0.8em;
+}
+
+.contact-list li img {
+  height: 24px;
+  width: 24px;
+  vertical-align: text-bottom;
 }
 
 
 @media (min-width: 768px) {
   .contact-header-div {
     padding: 7em;
+  }
+
+  .contact-header-div .strong-text {
+    font-size: 3em;
+  }
+
+  .contact-list li img {
+    height: 32px;
+    width: 32px;
+  }
+
+  .contact-item-text {
+    font-size: 32px;
+    padding-left: 1em;
   }
 }
