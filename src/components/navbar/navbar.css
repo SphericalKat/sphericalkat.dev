@@ -8,10 +8,18 @@ p {
   text-decoration: none;
 }
 
+nav {
+  width: 100%;
+}
+
+#nav-button {
+  display: none;
+}
+
 header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   padding: 30px 2.5em;
 }
 
@@ -20,15 +28,19 @@ header {
   color: white;
   font-family: "CircularStdBlack", sans-serif;
   font-size: 24px;
+  margin-right: auto;
 }
 
 .nav-logo-span {
-  color: var(--neon-green)
+  color: var(--neon-green);
 }
 
 .nav-links {
   display: flex;
   list-style: none;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
 }
 
 .nav-links li {
@@ -47,4 +59,59 @@ header {
 
 .nav-links li a:hover {
   color: var(--neon-green);
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links li {
+    display: none;
+    transition: all 0.4s ease 0s;
+  }
+
+  .opened li {
+    display: block;
+  }
+
+  .nav-links ul {
+    transition: all .5s;
+  }
+
+  #nav-button {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 25px 0 0 1.5em;
+    cursor: pointer;
+  }
+  
+  .opened ul {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    transition: all .5s;
+  }
+
+  .opened li {
+    padding: 20px 0 0 0;
+  }
+
+  .nav-links {
+    justify-content: center;
+  }
+
+  header {
+    padding: 25px 1.5em;
+  }
+
+  .nav-logo {
+    margin: 0;
+  }
+
+  #nav-button img {
+    height: 24px;
+    width: 24px;
+  }
 }
