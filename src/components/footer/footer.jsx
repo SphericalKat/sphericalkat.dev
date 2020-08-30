@@ -11,7 +11,7 @@ const Footer = () => {
       </strong>
 
       <div className="social-links">
-        <a href="https://github.com/ATechnoHazard/smoketrees.dev">
+        <a href="https://github.com/ATechnoHazard/sphericalkat.dev">
           <img src={github} alt="github" />
         </a>
       </div>
