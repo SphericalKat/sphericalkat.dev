@@ -67,14 +67,6 @@ header {
     transition: all 0.4s ease 0s;
   }
 
-  .opened li {
-    display: block;
-  }
-
-  .nav-links ul {
-    transition: all 0.5s;
-  }
-
   #nav-button {
     display: block;
     position: absolute;
@@ -102,6 +94,7 @@ header {
   }
 
   .opened li {
+    display: block;
     padding: 20px 0 0 0;
   }
 
