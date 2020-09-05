@@ -12,9 +12,9 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "cra-preact start",
+    "build": "cra-preact build",
+    "test": "cra-preact test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -31,5 +31,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cra-preact": "^0.4.0"
   }
 }
