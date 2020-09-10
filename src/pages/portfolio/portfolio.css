@@ -1,5 +1,5 @@
 .portfolio-header {
-  padding: 3em;
+  padding: 48px;
 }
 
 .portfolio-header .strong-text {
@@ -23,7 +23,7 @@
 
 @media (min-width: 768px) {
   .portfolio-header {
-    padding: 7em;
+    padding: 118px;
   }
 
   .portfolio-header .strong-text {
