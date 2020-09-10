@@ -1,0 +1,32 @@
+.portfolio-header {
+  padding: 3em;
+}
+
+.portfolio-header .strong-text {
+  font-family: "CircularStdBook", sans-serif;
+  font-size: 1.8em;
+  color: var(--neon-green)
+}
+
+.skill-list {
+  margin-top: 1em;
+  padding-left: 40px;
+}
+
+.skill-list li {
+  padding: 8px 0;
+}
+
+.skill-list a {
+  color: var(--neon-green);
+}
+
+@media (min-width: 768px) {
+  .portfolio-header {
+    padding: 7em;
+  }
+
+  .portfolio-header .strong-text {
+    font-size: 3em;
+  }
+}
