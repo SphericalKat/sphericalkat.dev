@@ -1,5 +1,9 @@
 .watermark {
   opacity: 0;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 @media (min-width: 768px) {
@@ -8,6 +12,7 @@
     font-size: 13em;
     opacity: 0.03;
     z-index: 1;
+    pointer-events: none;
     right: 0;
     color: white;
     bottom: 12%;
