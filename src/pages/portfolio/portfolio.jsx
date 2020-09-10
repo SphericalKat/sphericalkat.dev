@@ -68,7 +68,7 @@ const Portfolio = (_props) => {
 
   useEffect(() => {
     if (window.innerWidth < 768) {
-      setContainerHeight(window.innerHeight - 79 - 2 * 48);
+      setContainerHeight(window.innerHeight - 89 - 2 * 54);
       setContainerWidth(window.innerWidth - 2 * 48);
     } else {
       setContainerHeight(window.innerHeight - 89);
