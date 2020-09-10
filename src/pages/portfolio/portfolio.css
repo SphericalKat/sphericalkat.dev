@@ -10,15 +10,17 @@
 
 .skill-list {
   margin-top: 1em;
-  padding-left: 40px;
+  padding-left: 20px;
 }
 
 .skill-list li {
   padding: 8px 0;
+  font-size: 20px;
 }
 
 .skill-list a {
   color: var(--neon-green);
+  font-size: 20px;
 }
 
 @media (min-width: 768px) {
@@ -28,5 +30,17 @@
 
   .portfolio-header .strong-text {
     font-size: 3em;
+  }
+
+  .skill-list li {
+    font-size: 32px;
+  }
+  
+  .skill-list a {
+    font-size: 32px;
+  }
+
+  .skill-list {
+    padding-left: 40px;
   }
 }
