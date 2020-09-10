@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "../../components/navbar/navbar";
 import Watermark from "../../components/watermark/watermark";
+import Indicator from "../../components/indicator/indicator";
 import ReactPageScroller from "react-page-scroller";
 import "./portfolio.css";
 
@@ -67,12 +68,12 @@ const Portfolio = (_props) => {
   useEffect(() => {
     if (window.innerWidth < 768) {
       setContainerHeight(window.innerHeight - 79 - 2 * 48);
-      setContainerWidth(window.innerWidth - 2 * 48)
+      setContainerWidth(window.innerWidth - 2 * 48);
     } else {
       setContainerHeight(window.innerHeight - 89);
-      setContainerWidth(window.innerWidth - 2 * 118)
+      setContainerWidth(window.innerWidth - 2 * 118);
     }
-  }, [setContainerHeight, setContainerWidth])
+  }, [setContainerHeight, setContainerWidth]);
 
   return (
     <div>
@@ -84,11 +85,15 @@ const Portfolio = (_props) => {
           customPageNumber={currentPage}
           containerWidth={containerWidth}
           containerHeight={containerHeight}
+          animationTimer={800}
+          transitionTimingFunction="ease"
+          animationTimerBuffer={0}
         >
           <Languages />
           <Frameworks />
           <Other />
         </ReactPageScroller>
+        <Indicator pages={[0, 1, 2]} selected={currentPage} setPage={setCurrentPage} />
       </div>
     </div>
   );
