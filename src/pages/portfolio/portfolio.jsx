@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Navbar from "../../components/navbar/navbar";
 import Watermark from "../../components/watermark/watermark";
 import Indicator from "../../components/indicator/indicator";
+import Footer from "../../components/footer/footer";
 import ReactPageScroller from "react-page-scroller";
 import "./portfolio.css";
 
@@ -85,15 +86,14 @@ const Portfolio = (_props) => {
           customPageNumber={currentPage}
           containerWidth={containerWidth}
           containerHeight={containerHeight}
-          animationTimer={800}
           transitionTimingFunction="ease"
-          animationTimerBuffer={0}
         >
           <Languages />
           <Frameworks />
           <Other />
         </ReactPageScroller>
         <Indicator pages={[0, 1, 2]} selected={currentPage} setPage={setCurrentPage} />
+        <Footer />
       </div>
     </div>
   );
