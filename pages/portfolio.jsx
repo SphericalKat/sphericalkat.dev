@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
-import Navbar from "../../components/navbar/navbar";
-import Watermark from "../../components/watermark/watermark";
-import Indicator from "../../components/indicator/indicator";
-import Footer from "../../components/footer/footer";
+import Navbar from "../components/Navbar";
+import Watermark from "../components/Watermark";
+import Indicator from "../components/Indicator";
+import Footer from "../components/Footer";
 import ReactPageScroller from "react-page-scroller";
-import "./portfolio.css";
+import styles from "./Portfolio.module.css";
 
 const Languages = (_props) => (
   <>
-    <strong className="strong-text">I'm comfortable writing</strong>
-    <ul className="skill-list">
+    <strong className={styles["strong-text"]}>I'm comfortable writing</strong>
+    <ul className={styles["skill-list"]}>
       <li>Kotlin & Java</li>
       <li>JavaScript</li>
       <li>Python</li>
@@ -22,8 +22,8 @@ const Languages = (_props) => (
 
 const Frameworks = (_props) => (
   <>
-    <strong className="strong-text">I'm proficient in building</strong>
-    <ul className="skill-list">
+    <strong className={styles["strong-text"]}>I'm proficient in building</strong>
+    <ul className={styles["skill-list"]}>
       <li>
         Native <a href="https://developer.android.com/">Android</a> apps
       </li>
@@ -47,8 +47,8 @@ const Frameworks = (_props) => (
 
 const Other = (_props) => (
   <>
-    <strong className="strong-text">Some other skills</strong>
-    <ul className="skill-list">
+    <strong className={styles["strong-text"]}>Some other skills</strong>
+    <ul className={styles["skill-list"]}>
       <li>
         I'm a certified{" "}
         <a href="https://www.credential.net/fd9e2904-4ddc-4596-9957-0e168797b43c">
@@ -80,7 +80,7 @@ const Portfolio = (_props) => {
     <div>
       <Navbar page="portfolio" />
       <Watermark text="Portfolio" />
-      <div className="portfolio-header">
+      <div className={styles["portfolio-header"]}>
         <ReactPageScroller
           pageOnChange={(i) => setCurrentPage(i)}
           customPageNumber={currentPage}

@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "./indicator.css"
+import styles from "./Indicator.module.css"
 
 const Dot = (props) => {
   return (
     <>
-      <button className="indicator-btn" onclick={props.onclick}>
+      <button className={styles["indicator-btn"]} onClick={props.onclick}>
         <svg height="24" width="24" viewBox="0 0 100 100">
           <circle cx="50%" cy="50%" r="20" fill={props.color} />
         </svg>
@@ -18,13 +18,13 @@ const Indicator = (props) => {
   const { pages, selected, setPage } = props;
   return (
     <>
-      <div className="page-indicator">
+      <div className={styles["page-indicator"]}>
         {pages.map((num) => {
           return (
             <Dot
               key={num}
               color={num === selected ? "#69F0AE" : "#FAFAFA"}
-              onclick={(e) => {
+              onClick={(e) => {
                 e.preventDefault();
                 setPage(num);
               }}

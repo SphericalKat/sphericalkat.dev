@@ -1,10 +1,10 @@
 import React from "react";
-import "./watermark.css";
+import styles from "./Watermark.module.css";
 
 const Watermark = (props) => {
   return (
     <>
-      <div className="watermark">{props.text}</div>
+      <div className={styles.watermark}>{props.text}</div>
     </>
   );
 };

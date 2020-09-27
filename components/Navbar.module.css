@@ -1,6 +1,4 @@
-li,
-a,
-p {
+.font-style { 
   font-family: "CircularStdBook", sans-serif;
   font-weight: 500;
   font-size: 22px;
@@ -8,7 +6,7 @@ p {
   text-decoration: none;
 }
 
-nav {
+.nav-root {
   width: 100%;
 }
 
@@ -16,7 +14,7 @@ nav {
   display: none;
 }
 
-header {
+.nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -102,7 +100,7 @@ header {
     justify-content: center;
   }
 
-  header {
+  .nav-container {
     padding: 25px 1.5em;
   }
 

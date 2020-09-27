@@ -1,39 +1,19 @@
 {
-  "name": "sphericalkat.dev",
+  "name": "sphericalkat.dev-next",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.0.4",
-    "@testing-library/user-event": "^12.1.5",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-page-scroller": "^2.0.7-beta",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3"
-  },
   "scripts": {
-    "start": "cra-preact start",
-    "build": "cra-preact build",
-    "test": "cra-preact test",
-    "eject": "react-scripts eject"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "cra-preact": "^0.4.0"
+  "dependencies": {
+    "next": "9.5.3",
+    "next-fonts": "^1.4.0",
+    "next-images": "^1.5.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-page-scroller": "^2.0.7-beta"
   }
 }

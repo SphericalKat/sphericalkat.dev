@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "CircularStdBlack";
+  src: url("/fonts/CircularStd-Black.woff2") format("woff2"),
+    url("/fonts/CircularStd-Black.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CircularStdBold";
+  src: url("/fonts/CircularStd-Bold.woff2") format("woff2"),
+    url("/fonts/CircularStd-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CircularStdMedium";
+  src: url("/fonts/CircularStd-Medium.woff2") format("woff2"),
+    url("/fonts/CircularStd-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CircularStdBook";
+  src: url("/fonts/CircularStd-Book.woff2") format("woff2"),
+    url("/fonts/CircularStd-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+:root {
+  --dark-blue: #1d1f3e;
+  --dark-blue-card: #262845;
+  --neon-green: #69F0AE;
+  height: 100%;
+}
+
+#__next {
+  height: 100vh;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+}
+li,
+a,
+p {
+  font-family: "CircularStdBook", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--neon-green);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #69f0afc2;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: var(--dark-blue);
+  user-select: none;
+  text-decoration: none;
+}
