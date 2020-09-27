@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is my portfolio site written using React and Next.js. In production, it is served as a static site using Netlify.
 
 ## Getting Started
 
