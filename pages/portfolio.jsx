@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import Head from "next/head";
+
 import Navbar from "../components/Navbar";
 import Watermark from "../components/Watermark";
 import Indicator from "../components/Indicator";
@@ -22,7 +24,9 @@ const Languages = (_props) => (
 
 const Frameworks = (_props) => (
   <>
-    <strong className={styles["strong-text"]}>I'm proficient in building</strong>
+    <strong className={styles["strong-text"]}>
+      I'm proficient in building
+    </strong>
     <ul className={styles["skill-list"]}>
       <li>
         Native <a href="https://developer.android.com/">Android</a> apps
@@ -78,8 +82,18 @@ const Portfolio = (_props) => {
 
   return (
     <div>
+      <Head>
+        <title>SphericalKat</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta name="description" content="SphericalKat's personal portfolio" />
+      </Head>
+
       <Navbar page="portfolio" />
+
       <Watermark text="Portfolio" />
+
       <div className={styles["portfolio-header"]}>
         <ReactPageScroller
           pageOnChange={(i) => setCurrentPage(i)}
@@ -92,7 +106,13 @@ const Portfolio = (_props) => {
           <Frameworks />
           <Other />
         </ReactPageScroller>
-        <Indicator pages={[0, 1, 2]} selected={currentPage} setPage={setCurrentPage} />
+
+        <Indicator
+          pages={[0, 1, 2]}
+          selected={currentPage}
+          setPage={setCurrentPage}
+        />
+
         <Footer />
       </div>
     </div>
