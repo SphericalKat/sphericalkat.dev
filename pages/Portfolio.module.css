@@ -11,6 +11,7 @@
 .skill-list {
   margin-top: 1em;
   padding-left: 20px;
+  list-style: initial;
 }
 
 .skill-list li {

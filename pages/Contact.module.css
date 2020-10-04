@@ -16,6 +16,10 @@
   align-items: flex-start;
 }
 
+.contact-list img {
+  display: inline;
+}
+
 .contact-list li {
   padding: 0.5em 1em;
   display: inline-block;

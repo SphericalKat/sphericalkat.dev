@@ -13,7 +13,7 @@ const Languages = (_props) => (
     <strong className={styles["strong-text"]}>I'm comfortable writing</strong>
     <ul className={styles["skill-list"]}>
       <li>Kotlin & Java</li>
-      <li>JavaScript</li>
+      <li>JavaScript & TypeScript</li>
       <li>Python</li>
       <li>Dart</li>
       <li>Rust</li>
@@ -32,7 +32,7 @@ const Frameworks = (_props) => (
         Native <a href="https://developer.android.com/">Android</a> apps
       </li>
       <li>
-        Single-page web apps with <a href="https://reactjs.org/">React</a>
+        Single-page web apps with <a href="https://reactjs.org/">React</a> and <a href="https://vuejs.org/">Vue</a>
       </li>
       <li>
         Cross-platform apps with <a href="https://flutter.dev">Flutter</a>
