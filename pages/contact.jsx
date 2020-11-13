@@ -34,7 +34,7 @@ const Contact = () => (
 
         <li>
           <a
-            href="mailto:amolele@gmail.com"
+            href="mailto:me@sphericalkat.dev"
             target="_blank"
             rel="noopener noreferrer"
           >
