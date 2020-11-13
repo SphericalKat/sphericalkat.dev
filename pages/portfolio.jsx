@@ -84,7 +84,7 @@ const Portfolio = (_props) => {
     <div>
       <Head>
         <title>SphericalKat</title>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
         <meta name="description" content="SphericalKat's personal portfolio" />
