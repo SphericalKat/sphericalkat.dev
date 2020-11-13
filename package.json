@@ -9,15 +9,15 @@
     "export": "next build && next export"
   },
   "dependencies": {
-    "next": "9.5.5",
-    "next-fonts": "^1.4.0",
-    "next-images": "^1.6.0",
-    "react": "17.0.0",
-    "react-dom": "17.0.0",
-    "react-page-scroller": "^2.0.9-beta"
+    "next": "10.0.1",
+    "next-fonts": "^1.5.1",
+    "next-images": "^1.6.2",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-page-scroller": "^2.0.11-beta"
   },
   "devDependencies": {
     "postcss-preset-env": "^6.7.0",
-    "tailwindcss": "^1.9.5"
+    "tailwindcss": "^1.9.6"
   }
 }
