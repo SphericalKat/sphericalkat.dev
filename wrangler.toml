@@ -6,5 +6,5 @@ bucket = "./out"
 entry-point = "workers-site"
 
 [env.production]
-name = "site-worker"
+name = "site-worker-production"
 route = "sphericalkat.dev/*"

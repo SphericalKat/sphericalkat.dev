@@ -42,7 +42,7 @@ const Home = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <button className={styles["contact-btn"]}>Let's get in touch!</button>
+        <button className={`${styles["contact-btn"]} focus:outline-none`}>Let's get in touch!</button>
       </a>
     </div>
 
