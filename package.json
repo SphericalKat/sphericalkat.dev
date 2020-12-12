@@ -9,11 +9,11 @@
     "export": "next build && next export"
   },
   "dependencies": {
-    "autoprefixer": "^10.0.2",
-    "next": "10.0.2",
+    "autoprefixer": "^10.1.0",
+    "next": "10.0.3",
     "next-fonts": "^1.5.1",
     "next-images": "^1.6.2",
-    "postcss": "^8.1.8",
+    "postcss": "^8.2.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-page-scroller": "^2.0.11-beta"
@@ -21,6 +21,6 @@
   "devDependencies": {
     "@cloudflare/wrangler": "^1.12.2",
     "postcss-preset-env": "^6.7.0",
-    "tailwindcss": "^2.0.1"
+    "tailwindcss": "^2.0.2"
   }
 }
